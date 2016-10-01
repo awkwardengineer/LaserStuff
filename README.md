@@ -4,7 +4,20 @@ Laser cut toys for my kid and an experiment in organizing hardware products.
 One of the goals with this project is to try out a different way of using git to organize a hardware repo. There's a lot of thought that went into this and I'll try to summarize the logic that went into it, or at least the underlying philosophies that we're trying to live by.
 
 ### Some background on Product Breakdown Structure  
-We firmly believe that the repo folder structure should mirror that of the [Product Breakdown Structure](https://en.wikipedia.org/wiki/Product_breakdown_structure). In short, we try to organize a repo to reflect how things are physically built, not necessarily how they logically function. We also try to store engineering design analysis, test reports, etc, at the appropriate system, assembly, or component level of the repo.  
+We firmly believe that the repo folder structure should mirror that of the [Product Breakdown Structure](https://en.wikipedia.org/wiki/Product_breakdown_structure). In short, we try to organize a repo to reflect how things are physically built, not necessarily how they logically function. We also try to store engineering design analysis, test reports, etc, at the appropriate system, assembly, or component level of the repo.
+
+**LaserStuff**  
+|  
+|--Manufacturing / Build log  
+|&nbsp;&nbsp;&nbsp;|--01 test build  
+|&nbsp;&nbsp;&nbsp;|--02 another test build  
+|&nbsp;&nbsp;&nbsp;|--03 larger batch build  
+|  
+|--Mechanicals  
+|  
+|--Packaging  
+|  
+|--Photos  
 
 ### Hardware is more linear
 While Github is great for managing the so-called "gitflow" workflow, hardware tends to follow a much more linear path, albeit with one very important exception: every time something is built, it creates a fork off the main linear engineering path that is never folded back in. That is because that build creates a "release" that is now literally and figuratively in the wild. That fork will exist until that product is destroyed and gone forever.
