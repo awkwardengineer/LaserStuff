@@ -1,5 +1,7 @@
 # LaserStuff
-Laser cut toys for my kid and an experiment in organizing hardware products.
+Laser cut toys for my kid and an experiment in organizing hardware products.  
+
+![Plane](/Photos/20161004_102646.jpg)
 
 ## How to Use this Repo:
 Everything you need to build a laser cut aiplane toy (and packaging!) is located in the Manufacturing folder of this repo, including a link to the "recipe", aka the Bill of Materials, which is in a [google doc](https://docs.google.com/spreadsheets/d/1X3RI_gjsAwJpEgVR00CDBcl03ny8ZZEstYcms3ur_6U/edit#gid=0).  
