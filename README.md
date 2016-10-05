@@ -6,7 +6,7 @@ Laser cut toys for my kid and an experiment in organizing hardware products.
 ## How to Use this Repo:
 Everything you need to build a laser cut aiplane toy (and packaging!) is located in the Manufacturing folder of this repo, including a link to the "recipe", aka the Bill of Materials, which is in a [google doc](https://docs.google.com/spreadsheets/d/1X3RI_gjsAwJpEgVR00CDBcl03ny8ZZEstYcms3ur_6U/edit#gid=0).  
 
-The mechanical design info is in the Mechanical design folder, including a link to the online Onshape files where the mechanicals were originally designed.
+The mechanical design info is in the Mechanical design folder, including a link to the online [Onshape files](https://cad.onshape.com/documents/5daeb2494fb381e1f3eea91b/v/51914f51fba51aaff4cbab48/e/80103d4134765a2311185416) where the mechanicals were originally designed.
 
 The packaging label design files were created in Inkscape v0.92 and are in the Packaging folder. PDFs for actually printing the labels are, naturally, in the Manufacturing folder.
 
