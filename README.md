@@ -20,14 +20,14 @@ We firmly believe that the repo folder structure should mirror that of the [Prod
 
 **LaserStuff**  
 |  
-|--Manufacturing / Build log  
+|--Manufacturing Files / Build log  
 |&nbsp;&nbsp;&nbsp;|--01 test build  
-|&nbsp;&nbsp;&nbsp;|--02 another test build  
-|&nbsp;&nbsp;&nbsp;|--03 larger batch build  
-|  
-|--Mechanicals  
-|  
-|--Packaging  
+|&nbsp;&nbsp;&nbsp;|--02 pilot build
+|&nbsp;&nbsp;&nbsp;|--03 **new builds would go here**
+|
+|--Design Files
+|  |--Mechanicals  
+|  |--Packaging  
 |  
 |--Photos  
 
