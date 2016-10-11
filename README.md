@@ -22,12 +22,12 @@ We firmly believe that the repo folder structure should mirror that of the [Prod
 |  
 |--Manufacturing Files / Build log  
 |&nbsp;&nbsp;&nbsp;|--01 test build  
-|&nbsp;&nbsp;&nbsp;|--02 pilot build
-|&nbsp;&nbsp;&nbsp;|--03 **new builds would go here**
-|
-|--Design Files
-|  |--Mechanicals  
-|  |--Packaging  
+|&nbsp;&nbsp;&nbsp;|--02 pilot build  
+|&nbsp;&nbsp;&nbsp;|--03 **new builds would go here**  
+|  
+|--Design Files  
+|&nbsp;&nbsp;&nbsp;|--Mechanicals   
+|&nbsp;&nbsp;&nbsp;|--Packaging   
 |  
 |--Photos  
 
