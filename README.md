@@ -32,7 +32,7 @@ We firmly believe that the repo folder structure should mirror that of the [Prod
 |--Photos  
 
 ### Hardware is more linear
-While Github is great for managing the so-called "gitflow" workflow, hardware tends to follow a much more linear path, albeit with one very important exception: every time something is built, it creates a fork off the main linear engineering path that is never folded back in. That is because that build creates a "release" that is now literally and figuratively in the wild. That fork will exist until that product is destroyed and gone forever.
+While Github is great for managing the so-called "gitflow" workflow, hardware tends to follow a much more linear path, albeit with one very important exception: every time something is built, it creates a fork off the main linear engineering path that is never folded back in. That is because that build creates a "release" that is now literally and figuratively in the wild. That fork will exist until that physical version of the product is destroyed and gone forever.
 
 As a consequence, we've come up with an important tenet that we will use to manage branches in git.
 
