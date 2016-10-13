@@ -5,12 +5,13 @@ Laser cut toys for my kid and an experiment in organizing hardware products.
 ![Plane](/Photos/20161005_202721.jpg)
 
 ## How to Use this Repo:
-Everything you need to build a laser cut aiplane toy (and packaging!) is located in the Manufacturing folder of this repo, including a link to the "recipe", aka the Bill of Materials, which is in a [google doc](https://docs.google.com/spreadsheets/d/1X3RI_gjsAwJpEgVR00CDBcl03ny8ZZEstYcms3ur_6U/edit#gid=0).  
+Everything you need to build a laser cut aiplane toy (and packaging!) is located or linked in the Manufacturing folder of this repo, including a link to the "recipe", aka the Bill of Materials, which is in a [google doc](https://docs.google.com/spreadsheets/d/1X3RI_gjsAwJpEgVR00CDBcl03ny8ZZEstYcms3ur_6U/edit#gid=0).  
 
-The mechanical design info is in the Mechanical subfolder of the Design Files, including a link to the online [Onshape files](https://cad.onshape.com/documents/5daeb2494fb381e1f3eea91b/v/51914f51fba51aaff4cbab48/e/80103d4134765a2311185416) where the mechanicals were originally designed.
+In general, we've found that the repo is a great place to store released manufacturing files, but if Git isn't a natural place to put the design files, we will leave a URL link to the right place from the repo.
+
+That being said, the mechanical design info is in the Mechanical subfolder of the Design Files, including a link to the online [Onshape files](https://cad.onshape.com/documents/5daeb2494fb381e1f3eea91b/v/51914f51fba51aaff4cbab48/e/80103d4134765a2311185416) where the mechanicals were originally designed.
 
 The packaging label design files were created in Inkscape v0.92 and are in the Packaging subfolder of the Design Files. PDFs for actually printing the labels are, naturally, in the Manufacturing folder.
-
 
 ### Project goals
 One of the goals with this project is to try out a different way of using git to organize a hardware repo. There's a lot of thought that went into this and I'll try to summarize the logic that went into it, or at least the underlying philosophies that we're trying to live by.
