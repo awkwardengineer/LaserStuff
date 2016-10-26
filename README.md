@@ -5,7 +5,7 @@ Laser cut toys for my kid and an experiment in organizing hardware products.
 ![Plane](/Photos/20161005_202721.jpg)
 
 ## How to Use this Repository:
-Everything you need to build a laser cut aiplane toy (and packaging!) is located or linked in the Manufacturing folder of this repository, including a link to the "recipe", aka the Bill of Materials, which is in a [google doc](https://docs.google.com/spreadsheets/d/1X3RI_gjsAwJpEgVR00CDBcl03ny8ZZEstYcms3ur_6U/edit#gid=0).  
+Everything you need to build a laser cut aiplane toy (and packaging!) is located or linked in the [Manufacturing](https://github.com/awkwardengineer/LaserStuff/tree/Manufacturing/Manufacturing) folder of this repository, including a link to the "recipe", aka the Bill of Materials, which is in a [google doc](https://docs.google.com/spreadsheets/d/1X3RI_gjsAwJpEgVR00CDBcl03ny8ZZEstYcms3ur_6U/edit#gid=0).  
 
 In general, we've found that the repo is a great place to store released manufacturing files, but if Git isn't a natural place to put the design files, we will leave a URL link to the right place from the repo.
 
