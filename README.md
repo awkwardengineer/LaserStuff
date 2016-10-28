@@ -1,6 +1,19 @@
 # LaserStuff
 Laser cut toys for my kid and an experiment in organizing hardware products.  
 
+![Plane](/Photos/20161004_102646.jpg)
+![Plane](/Photos/20161005_202721.jpg)
+
+## How to Use this Repository:
+Everything you need to build a laser cut aiplane toy (and packaging!) is located or linked in the [Manufacturing](https://github.com/awkwardengineer/LaserStuff/tree/Manufacturing/Manufacturing) folder of this repository, including a link to the "recipe", aka the Bill of Materials, which is in a [google doc](https://docs.google.com/spreadsheets/d/1X3RI_gjsAwJpEgVR00CDBcl03ny8ZZEstYcms3ur_6U/edit#gid=0).  
+
+In general, we've found that the repo is a great place to store released manufacturing files, but if Git isn't a natural place to put the design files, we will leave a URL link to the right place from the repo.
+
+That being said, the mechanical design info is in the Mechanical subfolder of the Design Files, including a link to the online [Onshape files](https://cad.onshape.com/documents/5daeb2494fb381e1f3eea91b/v/51914f51fba51aaff4cbab48/e/80103d4134765a2311185416) where the mechanicals were originally designed.
+
+The packaging label design files were created in Inkscape v0.92 and are in the Packaging subfolder of the Design Files. PDFs for actually printing the labels are, naturally, in the Manufacturing folder.
+
+### Project goals
 One of the goals with this project is to try out a different way of using git to organize a hardware repo. There's a lot of thought that went into this and I'll try to summarize the logic that went into it, or at least the underlying philosophies that we're trying to live by.
 
 ### Some background on Product Breakdown Structure  
@@ -8,25 +21,25 @@ We firmly believe that the repo folder structure should mirror that of the [Prod
 
 **LaserStuff**  
 |  
-|--Manufacturing / Build log  
+|--Manufacturing Files / Build log  
 |&nbsp;&nbsp;&nbsp;|--01 test build  
-|&nbsp;&nbsp;&nbsp;|--02 another test build  
-|&nbsp;&nbsp;&nbsp;|--03 larger batch build  
+|&nbsp;&nbsp;&nbsp;|--02 pilot build  
+|&nbsp;&nbsp;&nbsp;|--03 **new builds would go here**  
 |  
-|--Mechanicals  
-|  
-|--Packaging  
+|--Design Files  
+|&nbsp;&nbsp;&nbsp;|--Mechanicals   
+|&nbsp;&nbsp;&nbsp;|--Packaging   
 |  
 |--Photos  
 
 ### Hardware is more linear
-While Github is great for managing the so-called "gitflow" workflow, hardware tends to follow a much more linear path, albeit with one very important exception: every time something is built, it creates a fork off the main linear engineering path that is never folded back in. That is because that build creates a "release" that is now literally and figuratively in the wild. That fork will exist until that product is destroyed and gone forever.
+While Github is great for managing the so-called "gitflow" workflow, hardware tends to follow a much more linear path, albeit with one very important exception: every time something is built, it creates a fork off the main linear engineering path that is never folded back in. That is because that build creates a "release" that is now literally and figuratively in the wild. That fork will exist until that physical version of the product is destroyed and gone forever.
 
 As a consequence, we've come up with an important tenet that we will use to manage branches in git.
 
 ###Engineering files vs. Manufacturing files
 
-Here is our main tenet: **The engineering folders of the PBS should reflect the end point of the linear(ish) engineering development path. The manufacturing folder gets a new sub-folder to capture each fork off the main path as product get built.** 
+Here is our main tenet: **The engineering folders of the Product Breakdown Structure should reflect the end point of the linear(ish) engineering development path. The manufacturing folder gets a new sub-folder to capture each fork off the main path as product get physcially built.** 
 
 ###Hardware lives on
 The idea is that hardware, once built, "lives on". The manufacturing folder, rather than hiding forks behind git "branches", just keeps them in numbered "build log" folders.
